@@ -1,2 +1,2 @@
 web: gunicorn dash_code:server
---timeout $TIMEOUT = 1000
+--timeout $TIMEOUT = 300
